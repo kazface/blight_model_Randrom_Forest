@@ -1,5 +1,3 @@
-# blight_model_Randrom_Forest
-
 # Data fields
 
 train.csv & test.csv
@@ -34,3 +32,8 @@ compliance [target variable for prediction]
  0 = Responsible, non-compliant
  1 = Responsible, compliant
 compliance_detail - More information on why each ticket was marked compliant or non-compliant
+
+
+# Random Forest
+
+Since the huge dataset contains various types of data, it was decided to use Random Forest. The main idea is to use a large ensemble of decision trees, each of which by itself gives a very low quality of classification, but due to their large number, the result is good.
